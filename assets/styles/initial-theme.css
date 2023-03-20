@@ -1,0 +1,51 @@
+.initial-theme {
+  background-color: var(--main-bg);
+}
+.initial-theme .main {
+  color: #fff;
+}
+.initial-theme .container-theme {
+  background-color: var(--toogle);
+}
+.initial-theme .swither {
+  background-color: var(--red-toogle);
+}
+.initial-theme .calculator thead {
+  background-color: var(--toogle);
+}
+.initial-theme .calculator tbody {
+  background-color: var(--toogle);
+}
+.initial-theme .calculator tbody button {
+  border-bottom: 4px solid #bbb;
+  background-color: #e6e5deef;
+}
+.initial-theme .calculator tbody button:hover {
+  background-color: #fff;
+}
+.initial-theme .btn-calc-white {
+  color: #fff;
+}
+.initial-theme .calculator .reset,
+.initial-theme .calculator .delete {
+  background-color: var(--btn-reset-del);
+  border-bottom: 4px solid #515599;
+}
+
+.initial-theme .calculator .reset:hover,
+.initial-theme .calculator .delete:hover {
+  background-color: hsl(225, 40%, 70%);
+}
+
+.initial-theme .calculator #equal {
+  background-color: var(--red-toogle-hover);
+  border-bottom: 4px solid #8b0000;
+}
+
+.initial-theme .calculator #equal:hover {
+    background-color: var(--red-toogle);
+  }
+
+.initial-theme footer a {
+    color: var(--red-toogle-hover);
+}

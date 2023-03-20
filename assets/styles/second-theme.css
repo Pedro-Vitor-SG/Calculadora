@@ -1,0 +1,54 @@
+/* THEME 2 */
+.second-theme {
+  background-color: var(--main-bg-2);
+}
+.second-theme .main {
+  color: #000;
+}
+.second-theme .container-theme {
+  background-color: var(--toogle-2);
+}
+.second-theme .swither {
+  transform: translateX(22px);
+  background-color: var(--orange-toogle);
+}
+.second-theme .container-theme:hover .swither {
+  background-color: var(--orange-toogle-hover);
+}
+
+.second-theme .calculator thead {
+  background-color: var(--bg-display);
+}
+.second-theme .calculator tbody {
+  background-color: var(--toogle-2);
+}
+.second-theme .calculator tbody button {
+  background-color: #e6e5deef;
+  border-bottom: 4px solid #999;
+}
+.second-theme .calculator tbody button:hover {
+    background-color: #fff;
+}
+.second-theme .calculator .reset,
+.second-theme .calculator .delete {
+  background-color: var(--btn-reset-del-2);
+  border-bottom: 4px solid #007c66;
+  color: #fff;
+}
+.second-theme .calculator .reset:hover,
+.second-theme .calculator .delete:hover {
+  background-color: var(--btn-reset-del-hover-2);
+}
+.second-theme .calculator #equal {
+  color: #fff;
+  background-color: #dd8300;
+  border-bottom: 4px solid #ba8300;
+}
+.second-theme .calculator #equal:hover {
+  background-color: #eea300;
+}
+
+.second-theme footer a{
+    color: var(--orange-toogle);
+}
+/* THEME 2 */

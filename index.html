@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="stylesheet" href="/assets/styles/initial-theme.css" />
+    <link rel="stylesheet" href="/assets/styles/second-theme.css" />
+    <link rel="stylesheet" href="/assets/styles/third-theme.css" />
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+  <body class="initial-theme">
+    <main class="main">
+      <header class="header">
+        <h1>calc</h1>
+
+        <div class="theme" id="theme">
+          <span>THEME</span>
+          <div class="container-theme">
+            <p class="theme-number">
+              <span>1</span>
+              <span>2</span>
+              <span>3</span>
+            </p>
+            <div class="swither"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="calculator">
+        <table>
+          <thead>
+            <th class="container-results">
+              <p class="resultado" id="display"></p>
+            </th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>
+                <button class="button-calc number" id="number7">7</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number8">8</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number9">9</button>
+              </td>
+              <td>
+                <button class="button-calc delete btn-calc-white" id="delete">
+                  DEL
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="button-calc number" id="number4">4</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number5">5</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number6">6</button>
+              </td>
+              <td>
+                <button class="button-calc operation" id="operationAdi">
+                  +
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="button-calc number" id="number1">1</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number2">2</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number3">3</button>
+              </td>
+              <td>
+                <button class="button-calc operation" id="operationSub">
+                  -
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <button class="button-calc number" id="point">.</button>
+              </td>
+              <td>
+                <button class="button-calc number" id="number0">0</button>
+              </td>
+              <td>
+                <button class="button-calc operation" id="operationDiv">
+                  /
+                </button>
+              </td>
+              <td>
+                <button class="button-calc operation" id="operationMulti">
+                  x
+                </button>
+              </td>
+            </tr>
+            <tr class="second-grid">
+              <td>
+                <button class="button-calc reset btn-calc-white" id="reset">
+                  RESET
+                </button>
+              </td>
+              <td>
+                <button class="button-calc result btn-calc-white" id="equal">
+                  =
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >.
+      </p>
+
+      <p>
+        Coded by
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/pedro-vitor-silveira-743568196/"
+          >Pedro Vitor</a
+        >.
+      </p>
+    </footer>
+    <script src="/assets/js/calculator.js"></script>
+    <script src="/assets/js/themeSwith.js"></script>
+  </body>
+</html>
